@@ -23,7 +23,7 @@ if password_legth < 5:
 else:
     characters_left = password_legth
 
-lowercase_letters = int(input("Ile małych liter ma mieć hasło: "))
+lowercase_letters = int(input("Ile małych liter ma mieć hasło:  "))
 
 update_character_left(lowercase_letters)
 
